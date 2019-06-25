@@ -13,5 +13,5 @@ nav: gradient
                         </div>
                 </div>
         </section>
-        Layout content:  {{ content }}
+{{ content }}
 </div>
