@@ -1,4 +1,4 @@
-<div class="nav-container" {% if layout.nav_fixed %} data-gradient-bg="#5f2c82,#49a09d,#F3A183,#5f2c82" {% endif %}>
+<div class="nav-container">
             <div class="via-1561387065615" via="via-1561387065615" vio="mokoka-nav">
                 <div class="bar bar--sm visible-xs">
                     <div class="container">
@@ -12,7 +12,7 @@
                         </div>
                     </div>
                 </div>
-                <nav id="menu1" class="bar bar-1 hidden-xs bar--absolute bar--transparent">
+                <nav id="menu1" class="bar bar-1 hidden-xs {% if layout.nav_transparent %}bar--absolute bar--transparent{% else %}bg-dark{% endif %}">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-1 col-md-2 hidden-xs">
