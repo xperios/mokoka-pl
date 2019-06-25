@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_fixed: true
+nav_transparent: true
 ---
 {% include nav.html %}
 <div class="main-container">
