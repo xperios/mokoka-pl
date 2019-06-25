@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_transparent: false
+nav: dark
 ---
 {% include nav.html %}
 <div class="main-container">
