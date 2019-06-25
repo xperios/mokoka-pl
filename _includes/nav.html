@@ -12,7 +12,7 @@
                         </div>
                     </div>
                 </div>
-                <nav id="menu1" class="bar bar-1 hidden-xs {% if layout.nav_transparent %}bar--absolute bar--transparent{% endif %}{% if layout.dark %}bg-dark{% endif %}">
+                <nav id="menu1" class="bar bar-1 hidden-xs {% if layout.nav == "transparent" %}bar--absolute bar--transparent{% elsif layout.nav == "dark" %}bg-dark{% endif %}">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-1 col-md-2 hidden-xs">
