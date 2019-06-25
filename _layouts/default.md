@@ -4,7 +4,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>mokoka.pl</title>
+        <title>{{ %page.title% }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
