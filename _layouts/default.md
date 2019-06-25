@@ -1,4 +1,5 @@
 ---
+nav: transparent
 ---
 <!doctype html>
 <html lang="en">
