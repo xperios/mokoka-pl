@@ -4,7 +4,7 @@ nav: gradient
 ---
 {% include nav.html %}
 <div class="main-container">
-        <section>
+        <section class="unpad--bottom">
                 <div class="container">
                         <div class="row">
                                 <div class="col-md-12">
